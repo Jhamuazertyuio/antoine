@@ -1,8 +1,11 @@
 <input 
   type="number" 
-  [(ngModel)]="age" 
-  placeholder="Veuillez entrer votre âge">
+  [(ngModel)]="nomb">
+<p>+</p>
+<input 
+  type="number" 
+  [(ngModel)]="nomb2">
+<p>=</p>
+<button (click)="verifier()">Calculer</button>
 
-<button (click)="verifier()">Envoyer</button>
-
-<p>{{ message }}</p> 
+<p>{{ message1 }}</p> 
