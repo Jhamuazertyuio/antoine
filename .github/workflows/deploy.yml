@@ -29,7 +29,7 @@ jobs:
         run: npm ci
 
       - name: Build static export
-        working-directory: ./app
+        working-directory: .
         run: npm run build
 
       - name: Upload artifact
